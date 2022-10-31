@@ -18,7 +18,7 @@ with st.sidebar:
     
     selected = option_menu('Multiple Disease Prediction System',
                           
-                          ['Diabetes Prediction System',
+                          st.['Diabetes Prediction System',
                            'Heart Disease Prediction System',
                            'Parkinson Disease Prediction System'],
                           icons=['activity','heart','person'],

@@ -15,13 +15,14 @@ parkinson_diesease_model= pickle.load(open("parkinson_diesease.sav","rb")
 
 #sidebar navigation
 with st.sidebar:
-    selected= option_menu("Multiple Diesease Prediction System",
-                          ["Diabetes Prediction System",
-                           "Heart Disease Prediction System",
-                           "Parkinson Disease Prediction System"],
-                          icons=["activity","heart","person"],
-                          default_index=0)
     
+    selected = option_menu('Multiple Disease Prediction System',
+                          
+                          ['Diabetes Prediction',
+                           'Heart Disease Prediction',
+                           'Parkinsons Prediction'],
+                          icons=['activity','heart','person'],
+                          default_index=0)
     
 #Diabetes prediction page
 if (selected == 'Diabetes Prediction System'):
